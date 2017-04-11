@@ -179,7 +179,7 @@ h2 {
 	width: 50%;
 }
 
-.img {
+.imgs {
 	position: absolute;
 	right: -135px;
 }
@@ -425,6 +425,49 @@ p.p-about {
 	content: "";
 	border: 1px solid #555;
 	margin-left: 30px;
+}
+
+
+
+
+
+*******************************************************************/
+/* ANIMATIONS: */
+/*******************************************************************/
+
+.iphone-off {
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	width: 90%;
+	z-index: 10;
+	
+}
+
+.iphone-on {
+	position: absolute;
+	bottom: 205px;
+	left: 88px;
+	z-index: 9000;
+}
+
+.iphone-btn {
+	position: absolute;
+	left: 130px;
+}
+
+.imgs {
+	top: -80px;
+	width: 50%;
+	height: auto;
+}
+
+.js-wp-2 {
+	opacity: 0;
+}
+
+.js-wp-2.animated {
+	opacity: 1;
 }
 
 
