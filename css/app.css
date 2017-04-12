@@ -399,14 +399,25 @@ p.p-about {
 
 .inline {
 	display: inline-block;
-	font-size: 1.2rem;
+	font-size: 0.9rem;
 	vertical-align: middle;
+}
+
+.inline a {
+	text-decoration: none;
+	transition: all .5s;
+}
+
+.inline a:hover {
+	color: #d9332d;
+	transition: all .5s;
 }
 
 .cr,
 .me {
 	margin-right: 30px;
 	padding-top: 10px;
+	
 }
 
 .images {
@@ -421,7 +432,7 @@ p.p-about {
 }
 
 .cr:after,
-.me:after {
+.inline .me:after {
 	content: "";
 	border: 1px solid #555;
 	margin-left: 30px;
@@ -431,7 +442,7 @@ p.p-about {
 
 
 
-*******************************************************************/
+/*******************************************************************/
 /* ANIMATIONS: */
 /*******************************************************************/
 
@@ -453,7 +464,7 @@ p.p-about {
 
 .iphone-btn {
 	position: absolute;
-	left: 130px;
+	left: 320px;
 }
 
 .imgs {
@@ -469,6 +480,23 @@ p.p-about {
 .js-wp-2.animated {
 	opacity: 1;
 }
+
+.js-wp-3 {
+	opacity: 0;
+	animation-delay: 3.2s;
+}
+
+.js-wp-3.animated {
+	opacity: 1;
+}
+
+
+/*******************************************************************/
+/* MEDIA QUERIES - RESPONSIVENESS: */
+/*******************************************************************/
+
+
+
 
 
 
